@@ -1,5 +1,5 @@
 # Python-TLS_Handshake
-This is an implementation of the TLS protocol that completed as a side project in Winter 2026 (February to May). My initial goal for this project was to understand encryption algorithms better, in preparation for a presentation on the subject. I decided to upload this project late in Fall 2026 for internship applications.
+This is an implementation of the TLS protocol that completed as a side project in Winter 2026 (February to May). My initial goal for this project was to understand encryption algorithms better, in preparation for a presentation on RSA. However, thanks to the momentum I gained while coding this, I decided to commit to implementing the full protocol. This project was initially only stored locally on my computer, but I decided to finally upload it to GitHub late in Fall 2026.
 
 **AI Disclosure** Copilot was used to generate the code for `chat.py`, which contains functions allowing two computers to communicate on a local network. `chat.py` was not directly used in the final product (i.e. they are not imported anywhere), but its functions were modified by myself to integrate the encryption functions. All other files were written by myself, following the ideas of the papers in the references section.
 

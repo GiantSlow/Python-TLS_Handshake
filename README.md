@@ -1,7 +1,7 @@
 # Python-TLS_Handshake
 This is an implementation of the TLS protocol that completed as a side project in Winter 2026 (February to May). My initial goal for this project was to understand encryption algorithms better, in preparation for a presentation on the subject. I decided to upload this project late in Fall 2026 for internship applications.
 
-**AI Disclosure** Copilot was used to generate the code for `chat.py`, which contains functions allowing two computers to communicate on a local network. `chat.py` was not directly used in the final product (i.e. they were not imported anywhere), but its functions were modified by myself to integrate the encryption functions. All other files were written by myself, following the ideas of the papers in the references section.
+**AI Disclosure** Copilot was used to generate the code for `chat.py`, which contains functions allowing two computers to communicate on a local network. `chat.py` was not directly used in the final product (i.e. they are not imported anywhere), but its functions were modified by myself to integrate the encryption functions. All other files were written by myself, following the ideas of the papers in the references section.
 
 # Design
 
@@ -12,7 +12,7 @@ This project directly implements the ideas of four foundational papers in crypto
 
 # Dependencies and Running the Code
 
-The program requires Python 3 and a random number generator (such as the `openssl prime` terminal command). To run the code, both client and server have to be on the same local network. The server first runs `main_server.py`, and the client runs `main_cli_2.py`, after inputting the server's local IP to the `PEER_IP` variable.
+The program requires Python 3 and a random prime number generator (such as the `openssl prime` terminal command). To run the code, both client and server have to be on the same local network. The server first runs `main_server.py`, and the client runs `main_cli_2.py`, after inputting the server's local IP to the `PEER_IP` variable.
 
 # References
 1. Rivest RL, Shamir A, Adleman L. A method for obtaining digital signatures and public-key cryptosystems. Communications of the ACM [Internet]. 1978 Feb 1 [cited 2026 Oct 31];21(2):120–6. Available from: http://people.csail.mit.edu/rivest/Rsapaper.pdf
